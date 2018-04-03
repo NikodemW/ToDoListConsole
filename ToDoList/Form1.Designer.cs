@@ -44,15 +44,16 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.tzadanie4 = new System.Windows.Forms.CheckBox();
+            this.tzadanie3 = new System.Windows.Forms.CheckBox();
+            this.tzadanie2 = new System.Windows.Forms.CheckBox();
+            this.tzadanie1 = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -199,7 +200,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 39);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Sprawdź";
+            this.button1.Text = "Zrobione";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -216,10 +217,11 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox4.Controls.Add(this.checkBox13);
-            this.groupBox4.Controls.Add(this.checkBox12);
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox6);
+            this.groupBox4.Controls.Add(this.label2);
+            this.groupBox4.Controls.Add(this.tzadanie4);
+            this.groupBox4.Controls.Add(this.tzadanie3);
+            this.groupBox4.Controls.Add(this.tzadanie2);
+            this.groupBox4.Controls.Add(this.tzadanie1);
             this.groupBox4.Location = new System.Drawing.Point(333, 0);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(327, 412);
@@ -227,45 +229,45 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Zadania tygodniowe";
             // 
-            // checkBox13
+            // tzadanie4
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(6, 201);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(106, 24);
-            this.checkBox13.TabIndex = 4;
-            this.checkBox13.Text = "Zadanie 4";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.tzadanie4.AutoSize = true;
+            this.tzadanie4.Location = new System.Drawing.Point(6, 201);
+            this.tzadanie4.Name = "tzadanie4";
+            this.tzadanie4.Size = new System.Drawing.Size(106, 24);
+            this.tzadanie4.TabIndex = 4;
+            this.tzadanie4.Text = "Zadanie 4";
+            this.tzadanie4.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // tzadanie3
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(6, 149);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(106, 24);
-            this.checkBox12.TabIndex = 3;
-            this.checkBox12.Text = "Zadanie 3";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.tzadanie3.AutoSize = true;
+            this.tzadanie3.Location = new System.Drawing.Point(6, 149);
+            this.tzadanie3.Name = "tzadanie3";
+            this.tzadanie3.Size = new System.Drawing.Size(106, 24);
+            this.tzadanie3.TabIndex = 3;
+            this.tzadanie3.Text = "Zadanie 3";
+            this.tzadanie3.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // tzadanie2
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 98);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(106, 24);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "Zadanie 2";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.tzadanie2.AutoSize = true;
+            this.tzadanie2.Location = new System.Drawing.Point(6, 98);
+            this.tzadanie2.Name = "tzadanie2";
+            this.tzadanie2.Size = new System.Drawing.Size(106, 24);
+            this.tzadanie2.TabIndex = 2;
+            this.tzadanie2.Text = "Zadanie 2";
+            this.tzadanie2.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // tzadanie1
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(6, 45);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(106, 24);
-            this.checkBox6.TabIndex = 1;
-            this.checkBox6.Text = "Zadanie 1";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.tzadanie1.AutoSize = true;
+            this.tzadanie1.Location = new System.Drawing.Point(6, 45);
+            this.tzadanie1.Name = "tzadanie1";
+            this.tzadanie1.Size = new System.Drawing.Size(106, 24);
+            this.tzadanie1.TabIndex = 1;
+            this.tzadanie1.Text = "Zadanie 1";
+            this.tzadanie1.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
@@ -319,6 +321,15 @@
             this.label1.Size = new System.Drawing.Size(0, 32);
             this.label1.TabIndex = 9;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(65, 342);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 32);
+            this.label2.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -364,15 +375,16 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox tzadanie4;
+        private System.Windows.Forms.CheckBox tzadanie3;
+        private System.Windows.Forms.CheckBox tzadanie2;
+        private System.Windows.Forms.CheckBox tzadanie1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
