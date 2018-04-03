@@ -48,7 +48,15 @@ namespace ToDoList
             }
             else
             {
-                MessageBox.Show("Musisz dokończyć zadania z listy zadań tygodniowych");
+                MessageBox.Show("Musisz dokończyć zadania z listy zadań tygodniowych.");
+            }
+            if(mzadanie1.Checked && mzadanie2.Checked && mzadanie3.Checked)
+            {
+                label3.Text = "Dobra robota !";
+            }
+            else
+            {
+                MessageBox.Show("Musisz dokończyć zadania z listy zadań miesięcznych.");
             }
         }
 

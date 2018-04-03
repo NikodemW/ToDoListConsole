@@ -49,11 +49,12 @@
             this.tzadanie2 = new System.Windows.Forms.CheckBox();
             this.tzadanie1 = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.mzadanie3 = new System.Windows.Forms.CheckBox();
+            this.mzadanie2 = new System.Windows.Forms.CheckBox();
+            this.mzadanie1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -272,9 +273,10 @@
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox5.Controls.Add(this.checkBox14);
-            this.groupBox5.Controls.Add(this.checkBox7);
-            this.groupBox5.Controls.Add(this.checkBox8);
+            this.groupBox5.Controls.Add(this.label3);
+            this.groupBox5.Controls.Add(this.mzadanie3);
+            this.groupBox5.Controls.Add(this.mzadanie2);
+            this.groupBox5.Controls.Add(this.mzadanie1);
             this.groupBox5.Location = new System.Drawing.Point(666, 0);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(327, 412);
@@ -282,35 +284,35 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Zadania miesięczne";
             // 
-            // checkBox14
+            // mzadanie3
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(6, 153);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(106, 24);
-            this.checkBox14.TabIndex = 3;
-            this.checkBox14.Text = "Zadanie 3";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.mzadanie3.AutoSize = true;
+            this.mzadanie3.Location = new System.Drawing.Point(6, 153);
+            this.mzadanie3.Name = "mzadanie3";
+            this.mzadanie3.Size = new System.Drawing.Size(106, 24);
+            this.mzadanie3.TabIndex = 3;
+            this.mzadanie3.Text = "Zadanie 3";
+            this.mzadanie3.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // mzadanie2
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(6, 98);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(106, 24);
-            this.checkBox7.TabIndex = 2;
-            this.checkBox7.Text = "Zadanie 2";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.mzadanie2.AutoSize = true;
+            this.mzadanie2.Location = new System.Drawing.Point(6, 98);
+            this.mzadanie2.Name = "mzadanie2";
+            this.mzadanie2.Size = new System.Drawing.Size(106, 24);
+            this.mzadanie2.TabIndex = 2;
+            this.mzadanie2.Text = "Zadanie 2";
+            this.mzadanie2.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // mzadanie1
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(6, 45);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(106, 24);
-            this.checkBox8.TabIndex = 1;
-            this.checkBox8.Text = "Zadanie 1";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.mzadanie1.AutoSize = true;
+            this.mzadanie1.Location = new System.Drawing.Point(6, 45);
+            this.mzadanie1.Name = "mzadanie1";
+            this.mzadanie1.Size = new System.Drawing.Size(106, 24);
+            this.mzadanie1.TabIndex = 1;
+            this.mzadanie1.Text = "Zadanie 1";
+            this.mzadanie1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -329,6 +331,15 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 32);
             this.label2.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(65, 342);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 32);
+            this.label3.TabIndex = 4;
             // 
             // Form1
             // 
@@ -380,11 +391,12 @@
         private System.Windows.Forms.CheckBox tzadanie2;
         private System.Windows.Forms.CheckBox tzadanie1;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox mzadanie3;
+        private System.Windows.Forms.CheckBox mzadanie2;
+        private System.Windows.Forms.CheckBox mzadanie1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
