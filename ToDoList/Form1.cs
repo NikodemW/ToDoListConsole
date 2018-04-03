@@ -34,7 +34,14 @@ namespace ToDoList
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if(dzadanie1.Checked && dzadanie2.Checked && dzadanie3.Checked && dzadanie4.Checked && dzadanie5.Checked)
+            {
+                label1.Text = ("Dobra robota !");
+            }
+            else
+            {
+                MessageBox.Show("Musisz dokończyć zadania z listy zadań codziennych.");
+            }
         }
 
         private void coding_CheckedChanged(object sender, EventArgs e)
